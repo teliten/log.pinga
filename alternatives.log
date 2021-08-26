@@ -81,3 +81,30 @@ update-alternatives 2021-08-19 19:00:00: run with --install /usr/bin/editor edit
 update-alternatives 2021-08-19 19:00:00: link group editor updated to point to /bin/nano
 update-alternatives 2021-08-19 19:00:00: run with --install /usr/bin/pico pico /bin/nano 10 --slave /usr/share/man/man1/pico.1.gz pico.1.gz /usr/share/man/man1/nano.1.gz
 update-alternatives 2021-08-19 19:00:00: link group pico updated to point to /bin/nano
+update-alternatives 2021-08-21 19:21:00: run with --install /usr/bin/fakeroot fakeroot /usr/bin/fakeroot-sysv 50 --slave /usr/share/man/man1/fakeroot.1.gz fakeroot.1.gz /usr/share/man/man1/fakeroot-sysv.1.gz --slave /usr/share/man/man1/faked.1.gz faked.1.gz /usr/share/man/man1/faked-sysv.1.gz --slave /usr/share/man/es/man1/fakeroot.1.gz fakeroot.es.1.gz /usr/share/man/es/man1/fakeroot-sysv.1.gz --slave /usr/share/man/es/man1/faked.1.gz faked.es.1.gz /usr/share/man/es/man1/faked-sysv.1.gz --slave /usr/share/man/fr/man1/fakeroot.1.gz fakeroot.fr.1.gz /usr/share/man/fr/man1/fakeroot-sysv.1.gz --slave /usr/share/man/fr/man1/faked.1.gz faked.fr.1.gz /usr/share/man/fr/man1/faked-sysv.1.gz --slave /usr/share/man/sv/man1/fakeroot.1.gz fakeroot.sv.1.gz /usr/share/man/sv/man1/fakeroot-sysv.1.gz --slave /usr/share/man/sv/man1/faked.1.gz faked.sv.1.gz /usr/share/man/sv/man1/faked-sysv.1.gz
+update-alternatives 2021-08-21 19:21:00: link group fakeroot updated to point to /usr/bin/fakeroot-sysv
+update-alternatives 2021-08-21 19:21:00: run with --install /usr/bin/fakeroot fakeroot /usr/bin/fakeroot-tcp 30 --slave /usr/share/man/man1/fakeroot.1.gz fakeroot.1.gz /usr/share/man/man1/fakeroot-tcp.1.gz --slave /usr/share/man/man1/faked.1.gz faked.1.gz /usr/share/man/man1/faked-tcp.1.gz --slave /usr/share/man/es/man1/fakeroot.1.gz fakeroot.es.1.gz /usr/share/man/es/man1/fakeroot-tcp.1.gz --slave /usr/share/man/es/man1/faked.1.gz faked.es.1.gz /usr/share/man/es/man1/faked-tcp.1.gz --slave /usr/share/man/fr/man1/fakeroot.1.gz fakeroot.fr.1.gz /usr/share/man/fr/man1/fakeroot-tcp.1.gz --slave /usr/share/man/fr/man1/faked.1.gz faked.fr.1.gz /usr/share/man/fr/man1/faked-tcp.1.gz --slave /usr/share/man/sv/man1/fakeroot.1.gz fakeroot.sv.1.gz /usr/share/man/sv/man1/fakeroot-tcp.1.gz --slave /usr/share/man/sv/man1/faked.1.gz faked.sv.1.gz /usr/share/man/sv/man1/faked-tcp.1.gz
+update-alternatives 2021-08-21 19:21:31: run with --quiet --install /usr/bin/cc cc /usr/bin/gcc 20
+update-alternatives 2021-08-21 19:21:31: link group cc updated to point to /usr/bin/gcc
+update-alternatives 2021-08-21 19:21:31: run with --quiet --install /usr/bin/c89 c89 /usr/bin/c89-gcc 20 --slave /usr/share/man/man1/c89.1.gz c89.1.gz /usr/share/man/man1/c89-gcc.1.gz
+update-alternatives 2021-08-21 19:21:31: link group c89 updated to point to /usr/bin/c89-gcc
+update-alternatives 2021-08-21 19:21:31: run with --quiet --install /usr/bin/c99 c99 /usr/bin/c99-gcc 20 --slave /usr/share/man/man1/c99.1.gz c99.1.gz /usr/share/man/man1/c99-gcc.1.gz
+update-alternatives 2021-08-21 19:21:31: link group c99 updated to point to /usr/bin/c99-gcc
+update-alternatives 2021-08-21 19:21:42: run with --install /usr/bin/c++ c++ /usr/bin/g++ 20
+update-alternatives 2021-08-21 19:21:42: link group c++ updated to point to /usr/bin/g++
+update-alternatives 2021-08-22 03:20:52: run with --install /bin/csh csh /bin/tcsh 20 --slave /usr/share/man/man1/csh.1.gz csh.1.gz /usr/share/man/man1/tcsh.1.gz
+update-alternatives 2021-08-22 03:20:52: link group csh updated to point to /bin/tcsh
+update-alternatives 2021-08-24 04:12:56: run with --install /usr/bin/traceroute traceroute /usr/bin/traceroute.db 100 --slave /usr/sbin/traceroute traceroute.sbin /usr/bin/traceroute.db --slave /usr/share/man/man1/traceroute.1.gz traceroute.1.gz /usr/share/man/man1/traceroute.db.1.gz
+update-alternatives 2021-08-24 04:12:56: link group traceroute updated to point to /usr/bin/traceroute.db
+update-alternatives 2021-08-24 04:12:56: run with --install /usr/bin/traceroute6 traceroute6 /usr/bin/traceroute6.db 100 --slave /usr/share/man/man1/traceroute6.1.gz traceroute6.1.gz /usr/share/man/man1/traceroute6.db.1.gz
+update-alternatives 2021-08-24 04:12:56: link group traceroute6 updated to point to /usr/bin/traceroute6.db
+update-alternatives 2021-08-24 04:12:56: run with --install /usr/bin/lft lft /usr/bin/lft.db 100 --slave /usr/share/man/man1/lft.1.gz lft.1.gz /usr/share/man/man1/lft.db.1.gz
+update-alternatives 2021-08-24 04:12:56: link group lft updated to point to /usr/bin/lft.db
+update-alternatives 2021-08-24 04:12:56: run with --install /usr/bin/traceproto traceproto /usr/bin/traceproto.db 100 --slave /usr/share/man/man1/traceproto.1.gz traceproto.1.gz /usr/share/man/man1/traceproto.db.1.gz
+update-alternatives 2021-08-24 04:12:56: link group traceproto updated to point to /usr/bin/traceproto.db
+update-alternatives 2021-08-24 04:12:56: run with --install /usr/sbin/tcptraceroute tcptraceroute /usr/sbin/tcptraceroute.db 100 --slave /usr/share/man/man8/tcptraceroute.8.gz tcptraceroute.8.gz /usr/share/man/man8/tcptraceroute.db.8.gz
+update-alternatives 2021-08-24 04:12:56: link group tcptraceroute updated to point to /usr/sbin/tcptraceroute.db
+update-alternatives 2021-08-24 04:12:58: run with --install /usr/bin/cymruwhois cymruwhois /usr/bin/python3-cymruwhois 200 --slave /usr/share/man/man1/cymruwhois.1.gz cymruwhois.1.gz /usr/share/man/man1/python3-cymruwhois.1.gz
+update-alternatives 2021-08-24 04:12:58: link group cymruwhois updated to point to /usr/bin/python3-cymruwhois
+update-alternatives 2021-08-25 07:36:34: run with --install /usr/bin/js js /usr/bin/nodejs 200 --slave /usr/share/man/man1/js.1.gz js.1.gz /usr/share/man/man1/nodejs.1.gz
+update-alternatives 2021-08-25 07:36:34: link group js updated to point to /usr/bin/nodejs
