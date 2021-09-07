@@ -108,3 +108,8 @@ update-alternatives 2021-08-24 04:12:58: run with --install /usr/bin/cymruwhois 
 update-alternatives 2021-08-24 04:12:58: link group cymruwhois updated to point to /usr/bin/python3-cymruwhois
 update-alternatives 2021-08-25 07:36:34: run with --install /usr/bin/js js /usr/bin/nodejs 200 --slave /usr/share/man/man1/js.1.gz js.1.gz /usr/share/man/man1/nodejs.1.gz
 update-alternatives 2021-08-25 07:36:34: link group js updated to point to /usr/bin/nodejs
+update-alternatives 2021-08-29 12:58:38: run with --install /usr/bin/telnet telnet /usr/bin/telnet.netkit 100 --slave /usr/share/man/man1/telnet.1.gz telnet.1.gz /usr/share/man/man1/telnet.netkit.1.gz
+update-alternatives 2021-08-29 12:58:38: link group telnet updated to point to /usr/bin/telnet.netkit
+update-alternatives 2021-09-03 12:01:30: run with --install /usr/bin/www-browser www-browser /usr/bin/lynx 40 --slave /usr/share/man/man1/www-browser.1.gz www-browser.1.gz /usr/share/man/man1/lynx.1.gz
+update-alternatives 2021-09-03 12:13:13: run with --install /usr/bin/x-www-browser x-www-browser /usr/bin/firefox-esr 70 --slave /usr/share/man/man1/x-www-browser.1.gz x-www-browser.1.gz /usr/share/man/man1/firefox-esr.1.gz
+update-alternatives 2021-09-03 12:13:13: run with --install /usr/bin/gnome-www-browser gnome-www-browser /usr/bin/firefox-esr 70 --slave /usr/share/man/man1/gnome-www-browser.1.gz gnome-www-browser.1.gz /usr/share/man/man1/firefox-esr.1.gz
